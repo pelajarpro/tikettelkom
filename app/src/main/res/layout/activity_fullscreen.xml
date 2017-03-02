@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0099cc"
+    android:background="#ffff"
     tools:context="com.telkom.titel.myapplication.tambahevent.FullscreenActivity">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
@@ -32,7 +32,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/dummy_button" />
+                android:text="Submit Event" />
 
         </LinearLayout>
 
@@ -48,6 +48,12 @@
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/editText" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
     </FrameLayout>
 
 </FrameLayout>
